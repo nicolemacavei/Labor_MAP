@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Views.StudentView">
+   <children>
+      <ScrollPane fx:id="coursesWithPlaces" layoutX="40.0" layoutY="34.0" prefHeight="226.0" prefWidth="355.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+        </content>
+      </ScrollPane>
+      <Label layoutX="40.0" layoutY="297.0" prefHeight="18.0" prefWidth="264.0" text="Introduce the course ID you want to register to" />
+      <TextField  fx:id="courseID"  layoutX="304.0" layoutY="294.0" prefHeight="26.0" prefWidth="93.0" />
+      <Button  fx:id="registerButton" layoutX="456.0" layoutY="294.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="74.0" text="Register"  onMouseClicked="#registerToACourse"/>
+   </children>
+</AnchorPane>

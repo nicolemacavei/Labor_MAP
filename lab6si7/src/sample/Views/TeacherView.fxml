@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?language javascript?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="myPane" prefHeight="400.0" prefWidth="400" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Views.TeacherView">
+   <children>
+      <Label layoutX="143.0" layoutY="110.0" text="Name: ">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="teacherName" layoutX="307.0" layoutY="103.0" prefHeight="42.0" prefWidth="211.0" text="Name" />
+      <Button fx:id="logInTeacher" layoutX="370.0" layoutY="215.0" mnemonicParsing="false" onMouseClicked="#showTeacherPage" prefHeight="34.0" prefWidth="85.0" text="LogIn">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Button>
+
+   </children>
+</AnchorPane>

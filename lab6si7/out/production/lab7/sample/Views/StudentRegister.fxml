@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Views.StudentView">
+   <children>
+      <TextField fx:id= "studentNameTextField" layoutX="284.0" layoutY="110.0" prefHeight="31.0" prefWidth="194.0" />
+      <Label layoutX="164.0" layoutY="110.0" prefHeight="26.0" prefWidth="64.0" text="Name:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="logInStudent"  layoutX="349.0" layoutY="192.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="64.0"  onMouseClicked="#showStudentPage"  text="LogIn">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
